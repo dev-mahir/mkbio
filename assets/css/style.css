@@ -1,0 +1,255 @@
+/* template css  */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4375rem 2.5rem;
+    align-items: center;
+    background: var(--body-bg);
+    box-shadow: 0 0 0.5625rem 0.1875rem #cccccc6b;
+    position: relative;
+}
+
+.mobile-toggle{
+    display: none;
+}
+
+
+.mk-logo a {
+    font-size: 1.6875rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+
+.main-menu ul.active{
+    right: 0;
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 0.8125rem 0.9375rem;
+    color: #444;
+    font-weight: 500;
+}
+
+a.mk-btn {
+    margin-left: 1.5625rem;
+}
+a.mk-btn:hover {
+    color: #444;
+    background: transparent;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+
+
+/* Mobile menu */
+header button {
+    color: var(--red);
+    font-size: 1.625rem;
+}
+.mo-bg {
+    display: none;
+}
+
+
+
+.mobile-menu {
+    background: #797c7e;
+    width: 12.75rem;
+    height: 100vh;
+    padding: 2.0625rem 2.0625rem;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mobile-menu ul li a {
+    color: #333;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+
+
+/* Bannar Area  */
+.mk-banner{
+    background: url(../images/banner.webp) center no-repeat;
+    background-size: cover;
+    padding: 12.5rem 0;
+}
+/* Bannar Area  */
+
+
+
+
+
+
+/* About  */
+.about-left {
+    background: var(--card-gradient);
+    padding: 1.4375rem;
+    border-radius: 0.4375rem;
+    box-shadow: var(--box-shadow-white);
+}
+
+.about-left img {
+    width: 100%;
+    height: 33.375rem;
+    border-radius: 0.4375rem;
+}
+
+
+.section-title {
+    margin-bottom: 1.875rem;
+}
+
+/* About  */
+
+
+/* portfolio sectio  */
+.mk-img {
+    overflow: hidden;
+}
+
+.mk-img img {
+    width: 100%;
+    height: 14.875rem;
+}
+
+.mk-img img {
+    width: 100%;
+    height: 14.875rem;
+    transition: .4s;
+    border-radius:0.3125rem;
+    -webkit-border-radius:0.3125rem;
+    -moz-border-radius:0.3125rem;
+    -ms-border-radius:0.3125rem;
+    -o-border-radius:0.3125rem;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.mk-img img:hover{
+    transition: .4s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.meta-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.1875rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.meta-data span:first-child{
+    color: var(--red);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.125rem;
+}
+
+.mk-item {
+    padding: 1.375rem 1.5625rem;
+    background: var(--card-gradient);
+    border-radius: 0.625rem;
+    box-shadow: var(--box-shadow-white);
+    
+}
+
+h2.title {
+    font-size: 1.5625rem;
+    line-height: 2.0625rem;
+    font-weight: 500;
+}
+/* portfolio sectio  */
+
+
+/* award  */
+.award img {
+    width: 6.4375rem;
+}
+
+
+
+.award {
+    text-align: center;
+}
+
+.award p {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.award-img {
+    height: 6.25rem;
+    width: 6.25rem;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+/* award  */
+
+
+/* Blog section  */
+.mk-item{
+    cursor: pointer;
+}
+/* Blog section  */
+
+
+
+
+
+
+
+
+
+/* Testimonial   */
+
+.test-item.mk-item {
+    width: 65%;
+    margin-right: 2.1875rem;
+}
+
+h2.testi-title {
+    font-size: 2.3125rem;
+}
+
+/* Contact form */
+
+
+
+/* Footer  */
+footer{
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+footer p  a{
+    color: #444;
+}
